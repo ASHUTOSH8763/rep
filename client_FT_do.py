@@ -3,7 +3,7 @@ import socket
 if __name__ == "__main__":
     serversocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     host =(input("Enter server ip: "))
-    port = int(input("Enter port: "))
+    port = int(input("Enter port Number: "))
 
     serversocket.connect((host, port))
     filename = "recieved"
